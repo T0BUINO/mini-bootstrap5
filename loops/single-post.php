@@ -60,7 +60,7 @@
     if ( comments_open() || get_comments_number() ) :
 
     //comments_template();
-    comments_template('/loops/single-post-comments.php');
+    comments_template('/loops/comments.php');
 
     endif;
   ?>

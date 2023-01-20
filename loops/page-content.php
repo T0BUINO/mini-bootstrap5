@@ -22,7 +22,7 @@
 	if ( comments_open() || get_comments_number() ) :
 
 		//comments_template();
-		comments_template('/loops/page-comments.php');
+		comments_template('/loops/comments.php');
 
 	endif;
 	?>

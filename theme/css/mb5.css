@@ -421,6 +421,10 @@ blockquote {
   color: #212529;
 }
 
+.comment-list li {
+  margin-top: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000000;
@@ -541,14 +545,38 @@ blockquote {
 
   .comments-wrap {
     border: none!important;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   }
 
   pre, code {
     border: none!important;
   }
+
   #btn-back-to-top {
     -webkit-box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
     -moz-box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
     box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
+  }
+
+  .comment-author-name {
+    color: #F9FBFF;
+  }
+
+  .comment {
+    border: none;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  .first-to-comment {
+    box-shadow: none;
+  }
+
+  .post-pagination-item {
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   }
 }
