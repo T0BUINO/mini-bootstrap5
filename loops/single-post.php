@@ -25,7 +25,7 @@
             $comment_count = get_comments_number();
             printf(
               /* translators: 1: comment count number. */
-              esc_html( _nx( '%1$s 条评论', '没有评论', $comment_count, 'mini-bootstrap5' ) ),
+              esc_html( _nx( '%1$s 条评论', '%1$s 条评论', $comment_count, 'mini-bootstrap5' ) ),
               number_format_i18n( $comment_count )
             );
           ?></a>
