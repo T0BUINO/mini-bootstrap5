@@ -141,7 +141,9 @@ if (have_comments()) : ?>
 
           <?php if (is_user_logged_in()) : ?>
           <p>
-            <?php printf(__('登录为', 'mini-bootstrap5') . ' <a href="%s/wp-admin/profile.php">%s</a>.', get_option('url'), $user_identity); ?>
+            <?php if ( ! empty( $user_identity ) ) {
+	            printf(__('登录为', 'mini-bootstrap5') . ' <a href="%s/wp-admin/profile.php">%s</a>.', get_option('url'), $user_identity);
+            } ?>
             <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php __('登出该账户', 'mini-bootstrap5'); ?>"><?php echo __('登出', 'mini-bootstrap5') . ' <i class="bi bi-arrow-right"></i>'; ?></a>
           </p>
           <?php else : ?>

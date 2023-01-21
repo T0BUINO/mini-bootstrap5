@@ -543,7 +543,7 @@ blockquote {
     border: none!important;
   }
 
-  .comments-wrap {
+  #respond .comments-wrap {
     border: none!important;
     -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
@@ -578,5 +578,22 @@ blockquote {
     -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+
+  /* 滚动槽 */
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: .1rem;
+    background: rgba(101, 87, 87, 0.75);
+    /* -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75); */
+  }
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb {
+    border-radius: .1rem;
+    background: rgba(138, 132, 132, 0.75);
+    /* -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75); */
   }
 }
