@@ -74,7 +74,7 @@ function b5st_dimox_single_post() {
   <?php }
 };
 
-add_action( 'mainbody_after', 'b5st_dimox_single_post' );
+add_action( 'mainbody_before', 'b5st_dimox_single_post' );
 
 /*
  * Mainbody Widgets 1 Insertion

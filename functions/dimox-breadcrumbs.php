@@ -23,7 +23,7 @@
 	$text['page']     = '第 %s 页'; // text 'Page N'
 	$text['cpage']    = '第 %s 页评论'; // text 'Comment Page N'
 
-	$wrap_before    = '<div><nav aria-label="breadcrumb" class="container-xxl pb-3"><ol class="breadcrumb m-0" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
+	$wrap_before    = '<div><nav aria-label="breadcrumb" class="container-xxl pt-3"><ol class="breadcrumb m-0" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
 	//$wrap_before    = '<div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
 	
 	//----mini-bootstrap5//
