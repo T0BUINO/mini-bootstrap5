@@ -1,6 +1,6 @@
 <?php b5st_footer_before();?>
 
-<footer id="site-footer" class="bg-light border-top border-bottom">
+<footer id="site-footer" class="bg-light">
 
   <div class="container-xxl">
 

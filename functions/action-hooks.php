@@ -106,7 +106,7 @@ function b5st_bottomline() {
 	if ( ! has_action('bottomline') ) {
 		?>
     <div class="container-xxl">
-      <div class="row pt-3">
+      <div class="row">
         <div class="col-sm">
           <p class="text-center text-sm-start">&copy; 2018-<?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
         </div>
