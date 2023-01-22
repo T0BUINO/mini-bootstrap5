@@ -65,7 +65,7 @@ function b5st_comment($comment, $args, $depth) {
 if (isset($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME'])){
   die ('Please do not load this page directly. Thanks!'); }
 if ( post_password_required() ) { ?>
-  <section id="post-comments">
+  <section id="comments">
     <div class="comments-wrap">
       <div class="alert alert-warning">
         <?php _e('文章被密码保护，输入密码查看评论', 'mini-bootstrap5'); ?>
@@ -78,7 +78,7 @@ if ( post_password_required() ) { ?>
 
 if (have_comments()) : ?>
 
-  <secion id="post-comments">
+  <secion id="comments">
     <div class="comments-wrap container">
       <h3 class="pt-3 mt-5 mb-3">
         <?php printf(
@@ -119,9 +119,9 @@ if (have_comments()) : ?>
 <?php
   else :
 	  if (comments_open()) :
-      echo '<section id="post-comments"><div class="comments-wrap container first-to-comment"><p class="alert alert-info mt-5">' . __('成为第一个发表评论的人吧！', 'mini-bootstrap5') . '</p></div></section>';
+      echo '<section id="comments"><div class="comments-wrap container first-to-comment"><p class="alert alert-info mt-5">' . __('成为第一个发表评论的人吧！', 'mini-bootstrap5') . '</p></div></section>';
 		else :
-			echo '<section id="post-comments"><div class="comments-wrap container"><p class="alert alert-info">' . __('评论已经关闭...', 'mini-bootstrap5') . '</p></div></section>';
+			echo '<section id="comments"><div class="comments-wrap container"><p class="alert alert-info">' . __('评论已经关闭...', 'mini-bootstrap5') . '</p></div></section>';
 		endif;
 	endif;
 ?>

@@ -21,7 +21,7 @@
 
         <div class="post-meta">
           <i class="bi bi-chat-text"></i>
-          <a href="#post-comments"><?php
+          <a href="#comments"><?php
             $comment_count = get_comments_number();
             printf(
               /* translators: 1: comment count number. */
