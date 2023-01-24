@@ -28,3 +28,18 @@ function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// TOC 折叠
+document.querySelectorAll('.table-of-contents .toggle-toc, .table-of-contents .toc-headline').forEach(toggler => {
+    toggler.addEventListener('click', function() {
+        let tocList = document.querySelectorAll('.table-of-contents ul')[0];
+        let toggler = document.querySelectorAll('.table-of-contents .toggle-toc')[0];
+        if(tocList.style.display == 'none') {
+            tocList.style.display = 'block';
+            toggler.innerHTML = ' [折叠]';
+        } else {
+            tocList.style.display = 'none';
+            toggler.innerHTML = ' [展开]';
+        }
+    });
+});

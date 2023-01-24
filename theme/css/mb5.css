@@ -600,3 +600,40 @@ blockquote {
     /* -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75); */
   }
 }
+
+/* TOC */
+.table-of-contents ul li {
+  list-style-type: none;
+  margin-left: -1rem;
+}
+
+.table-of-contents ul {
+  margin: 0!important;
+}
+
+.table-of-contents {
+  padding: 0.8rem;
+  border: grey solid 1px;
+  border-radius: .375rem;
+}
+
+.toc-headline {
+  font-weight: bold;
+}
+
+.toggle-toc {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.toc-header {
+  border-bottom: grey 2px solid;
+  margin-bottom: .5rem;
+  padding-bottom: .3rem;
+}
+
+@media (prefers-color-scheme: dark){
+  .toc-header {
+    color: #F9FBFF;
+  }
+}
