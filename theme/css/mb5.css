@@ -604,7 +604,7 @@ blockquote {
 /* TOC */
 .table-of-contents ul li {
   list-style-type: none;
-  margin-left: -1rem;
+  margin-left: -2rem;
 }
 
 .table-of-contents ul {
