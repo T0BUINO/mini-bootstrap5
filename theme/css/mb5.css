@@ -459,7 +459,9 @@ blockquote {
   }
 
   img {
-    box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   }
 
   p {
@@ -558,9 +560,9 @@ blockquote {
   }
 
   #btn-back-to-top {
-    -webkit-box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
-    -moz-box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
-    box-shadow: 0px 3px 16px 0px rgba(13,110,253,1);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(13,110,253,1);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(13,110,253,1);
+    box-shadow: 0px 3px 10px 0px rgba(13,110,253,1);
   }
 
   .comment-author-name {
@@ -613,8 +615,8 @@ blockquote {
 
 .table-of-contents {
   padding: 0.8rem;
-  border: grey solid 1px;
-  border-radius: .375rem;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 0 .5rem rgb(0 0 0 / 8%);
 }
 
 .toc-headline {
@@ -635,5 +637,11 @@ blockquote {
 @media (prefers-color-scheme: dark){
   .toc-header {
     color: #F9FBFF;
+  }
+  .table-of-contents {
+    border: none;
+    -webkit-box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 75%);
   }
 }

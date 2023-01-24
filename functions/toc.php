@@ -7,7 +7,7 @@ function get_toc($content) {
 
 	// parse toc
 	ob_start();
-	echo "<div class='table-of-contents container-sm mb-5'>";
+	echo "<div class='table-of-contents rounded container-sm mb-5'>";
 	echo "<div class='toc-header'><span class='toc-headline'>目录</span>";
 	echo "<!-- Table of contents by webdeasy.de -->";
 	echo "<span class='toggle-toc custom-setting' title='collapse'> [折叠]</span></div>";
