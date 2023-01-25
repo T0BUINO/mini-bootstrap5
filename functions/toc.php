@@ -6,14 +6,16 @@ function get_toc($content) {
 	$headings = get_headings($content, 1, 6);
 
 	// parse toc
-	ob_start();
-	echo "<div class='table-of-contents rounded container-sm mb-5'>";
-	echo "<div class='toc-header'><span class='toc-headline'>目录</span>";
-	echo "<!-- Table of contents by webdeasy.de -->";
-	echo "<span class='toggle-toc custom-setting' title='collapse'> [折叠]</span></div>";
-	parse_toc($headings, 0, 0);
-	echo "</div>";
-	return ob_get_clean();
+	if ($headings) {
+		ob_start();
+		echo "<div class='table-of-contents rounded container-sm mb-5'>";
+		echo "<div class='toc-header'><span class='toc-headline'>目录</span>";
+		echo "<!-- Table of contents by webdeasy.de -->";
+		echo "<span class='toggle-toc custom-setting' title='collapse'> [折叠]</span></div>";
+		parse_toc($headings, 0, 0);
+		echo "</div>";
+		return ob_get_clean();
+	}
 }
 
 function parse_toc($headings, $index, $recursive_counter) {
