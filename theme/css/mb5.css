@@ -450,7 +450,7 @@ blockquote {
   }
 
   main {
-    background-color: #333;
+    background-color: #202020;
   }
 
   header h2 a {
@@ -544,7 +544,7 @@ blockquote {
 
   #site-navbar {
     border: none!important;
-    background-color: #333!important;
+    background-color: #202020!important;
   }
 
   .wp-block-quote {
