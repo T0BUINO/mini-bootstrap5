@@ -325,7 +325,8 @@ main {
   /* border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); */
   -webkit-box-shadow: rgb(0 0 0/15%) 0 1px 4px;
   -moz-box-shadow: rgba(0,0,0,.15) 0 1px 4px;
-  box-shadow: rgb(0 0 0/15%) 0 1px 4px; }
+  box-shadow: rgb(0 0 0/15%) 0 1px 4px;
+  background-color: #f6f6f6; }
 
 @media screen and (max-width: 1000px) {
   #site-navbar {
