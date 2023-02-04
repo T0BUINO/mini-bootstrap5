@@ -74,7 +74,7 @@ add_action('init', 'b5st_setup');
 
 if ( ! function_exists( 'b5st_avatar_attributes' ) ) {
 	function b5st_avatar_attributes($avatar_attributes) {
-		$display_name = get_the_author_meta( 'display_name' );
+		$display_name = get_comment_author();
 		$avatar_attributes = str_replace('alt=\'\'', 'alt=\'Avatar for '.$display_name.'\' title=\'Gravatar for '.$display_name.'\'',$avatar_attributes);
 		return $avatar_attributes;
 	}
