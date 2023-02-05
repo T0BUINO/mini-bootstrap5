@@ -71,7 +71,7 @@
       <div class="col-sm">
         <div class="border rounded bg-light d-flex align-items-center post-pagination-item">
           <i class="bi bi-chevron-compact-left fs-1"></i>
-          <div class="my-2 post-pagination-text">
+          <div class="my-2 post-pagination-text me-3">
             上一篇文章<br>
             <?php previous_post_link( '%link', '%title' ) ?>
           </div>
@@ -83,7 +83,7 @@
         <div class="col-sm">
           <div class="border rounded bg-light d-flex flex-row-reverse align-items-center post-pagination-item">
           <i class="bi bi-chevron-compact-right fs-1"></i>
-          <div class="text-end my-2 post-pagination-text">
+          <div class="text-end my-2 post-pagination-text ms-3">
             下一篇文章<br>
             <?php next_post_link( '%link', '%title' ) ?>
           </div>
