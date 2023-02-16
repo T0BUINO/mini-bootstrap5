@@ -35,7 +35,7 @@
 
     <?php wp_link_pages(); ?>
 
-    <section class="my-5 long-read container">
+    <section class="mb-5 long-read container">
       <?php the_content(); ?>
     </section>
 
