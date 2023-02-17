@@ -11,7 +11,7 @@
       </section>
 
     <header class="entry-header container">
-      <h2 class="display-6 fw-bolder post-title h2"><?php the_title()?></h2>
+      <h1 class="display-6 fw-bolder post-title h2"><?php the_title()?></h1>
       <div class="header-metas d-flex text-muted">
 
         <div class="pe-3">
