@@ -7,7 +7,7 @@
 ?>
 
 
-<article role="article" id="post_<?php the_ID()?>" <?php post_class("wrap-md entry-content pt-5"); ?> >
+<article role="article" id="post_<?php the_ID()?>" <?php post_class("container-xxl entry-content pt-5"); ?> >
   <header>
     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
     <h2 class="h2 mb-3 fw-bolder">
