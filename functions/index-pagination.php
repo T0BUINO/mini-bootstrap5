@@ -28,7 +28,7 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true, $params
   );
 
   if ( is_array( $pages ) ) {
-    $pagination = '<div class="wrap-md my-5"><ul class="pagination">';
+    $pagination = '<div class="container-xxl my-5"><ul class="pagination">';
 
     foreach ( $pages as $page ) {
       $pagination .= '<li class="page-item' . (strpos($page, 'current') !== false ? ' active' : '') . '"> ' . str_replace('page-numbers', 'page-link', $page) . '</li>';
