@@ -7,11 +7,11 @@
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
   <article role="article" id="post_<?php the_ID()?>" <?php post_class("mb-5")?>>
     <header class="container pt-4">
-      <h2 class="display-6 my-5 h2 fw-bolder">
+      <h1 class="display-6 mb-4 h2 fw-bolder">
         <?php the_title()?>
-      </h2>
+      </h1>
     </header>
-    <section class="container pb-4 entry-content">
+    <section class="container entry-content">
       <?php the_content()?>
       <?php wp_link_pages(); ?>
     </section>

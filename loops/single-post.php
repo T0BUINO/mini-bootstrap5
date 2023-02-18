@@ -6,7 +6,7 @@
 
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
   <article role="article" id="post_<?php the_ID()?>" <?php post_class("entry-content")?>>
-      <section class="container-md pt-3 mt-4">
+      <section class="container-md mt-4">
           <?php the_post_thumbnail(); ?>
       </section>
 

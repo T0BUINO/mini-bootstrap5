@@ -80,7 +80,7 @@ if (have_comments()) : ?>
 
   <secion id="comments">
     <div class="comments-wrap container">
-      <h3 class="pt-3 mt-5 mb-3">
+      <h3 class="mt-5">
         <?php printf(
           /* translators: 1: title. */
           esc_html__( '评论', 'mini-bootstrap5' ),
