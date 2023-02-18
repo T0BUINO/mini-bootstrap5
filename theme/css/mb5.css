@@ -261,9 +261,9 @@ img {
 .wp-block-video video {
   max-width: 720px; }
 
-.wp-block-table {
+/*.wp-block-table {
   overflow-x: auto;
-  margin: 1.5rem; }
+  margin: 1.5rem; }*/
 
 .wp-block-table table {
   border-collapse: collapse; }
