@@ -31,7 +31,7 @@
           <span class="text-uppercase"><?php the_category(', '); ?></span>
       </div>
         -->
-    <div class="text-muted mb-5">
+    <div class="text-muted mb-4">
         <i class="bi bi-calendar3"></i> <a href="<?php comments_link(); ?>"><?php b5st_post_date(); ?></a>
         <i class="bi bi-chat-text"></i> <a href="<?php comments_link(); ?>"><?php printf( _nx( '1 条评论', '%1$s 条评论', get_comments_number(), '', 'mini-bootstrap5' ), number_format_i18n( get_comments_number() ) ); ?></a>
     </div>
