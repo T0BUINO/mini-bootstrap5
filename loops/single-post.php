@@ -12,7 +12,7 @@
 
     <header class="entry-header container">
       <h1 class="display-6 fw-bolder post-title h2"><?php the_title()?></h1>
-      <div class="header-metas d-flex text-muted">
+      <div class="header-metas d-flex text-muted pb-3">
 
         <div class="pe-3">
           <i class="bi bi-calendar3"></i>
